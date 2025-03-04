@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+body{
+    background-color: rgb(179, 204, 204);
+}
+
+
+        .container
+        {
+            border: 2px dotted black;
+            width: fit-content;
+border-radius: 10px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-self: center;
+margin-top: 220px;
+box-shadow: 5px 5px 50px black;
+}
+
+h4{
+    margin-top: 0;
+font-family: 'Courier New', Courier, monospace;
+font-size: 19px;
+margin-bottom: 15px;
+padding-top: 10px;
+}
+
+
+p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+}
+
+
+input{
+ padding: 6px;
+outline: none;
+border: 1px solid black;
+ border-radius: 5px;
+}
+
+
+    </style>
 </head>
 <body>
+
+<div class="container">
+    <h4>Select your birth date:</h4>
     <input type="date">
-    <p></p>
+    <p>You're age is:</p>
+</div>
 <script>
 
 const dateInput = document.querySelector("input");
