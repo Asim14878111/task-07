@@ -36,7 +36,11 @@ padding-top: 10px;
 p{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 18px;
-
+border: 1px solid black;
+width: fit-content;
+padding: 4px;
+border-radius:6px ;
+background-color: rgba(217, 248, 166, 0.034);
 }
 
 
@@ -73,7 +77,7 @@ const years = newDate.getFullYear() - 1970 ;
 const months = newDate.getMonth() ;
 const days = newDate.getDate() - 1 ;
 
-pElement.innerHTML = `You're ${years} years ${months} months ${days} days old  `
+pElement.innerHTML = `You're ${years} years ${months} months ${days} days old.  `
 })
 
 
